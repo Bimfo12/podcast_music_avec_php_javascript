@@ -1,0 +1,76 @@
+body{
+    width: 100vw;
+    height: auto;
+    background:linear-gradient(45deg,#111727,#0b1320);
+}
+.touts{
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    top: 450px;
+    /* border: 1px solid black; */
+    margin-left: 70px;
+    position: absolute;
+}
+.enregistrement{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid rgb(226, 8, 8); */
+}
+.enregistrer{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid rgb(55, 8, 226); */
+}
+
+
+
+.recordButton{
+    position: relative;
+    width: 15vw;
+    height: 15vw;
+    background-color: brown;   
+    /* background-color: green; */
+    border-radius: 50%;
+    margin-left: 30%;
+    top: 30px;
+    border: 15px solid gray;
+}
+.recordstopButton{
+    position: relative;
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(9, 238, 85);   
+    /* background-color: green; */
+    border-radius: 50%;
+    margin-left: 30%;
+    top: 30px;
+    border: 15px solid gray;
+}
+
+
+
+#audioPlayer{
+    opacity: 0;
+}
+#currentStrart{
+    position: relative;
+    font-size: 50px;
+    color: white;
+    top: 100px;
+    margin-left: -160px;
+}
+table tr td{
+    color: antiquewhite;
+}
+.enregistrer table{
+    top: 170px;
+    display: flex;
+    position: relative;
+}
+.enregistrer button{
+    top: 200px;
+    display: flex;
+    position: relative;
+}
+   

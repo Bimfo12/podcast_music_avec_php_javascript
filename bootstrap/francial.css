@@ -1,0 +1,79 @@
+/* Create by IT'S SS!*/
+
+
+body 
+{
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto Mono', monospace;
+            background-color: #34495e;
+            background: url(../image/podcast.png) no-repeat; 
+            background-size: cover;
+        }
+
+ .box
+ {
+            width: 300px;
+            padding: 40px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        } 
+
+
+  .box h1 
+ {
+            color: white;
+            text-transform: none;
+            font-weight: 200;
+        }    
+
+ .box input[type="text"],
+ .box input[type="mail"],
+  .box input[type="password"] {
+            border: 0;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid #3498db;
+            padding: 14px 10px;
+            width: 200px;
+            outline: none;
+            border-radius: 24px;
+            color: white;
+            transition: 0.25s;
+        } 
+
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 50px;
+    width: 136px;
+    outline: none;
+    border-radius: 24px;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.erreur{
+    color: red !important;
+    z-index: 2000;
+    font-size: 20px;
+    width: 300px;
+    margin-left: -30px;
+}
+.reusi{
+    color: rgb(43, 255, 0) !important;
+    z-index: 2000;
+    font-size: 20px;
+    width: 300px;
+    margin-left: -30px;
+}
